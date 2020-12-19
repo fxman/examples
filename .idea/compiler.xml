@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="example-eventbus" />
-        <module name="example-splitdb" />
-        <module name="example-designpattern" />
         <module name="examples-parent" />
+        <module name="example-splitdb" />
+        <module name="example-eventbus" />
+        <module name="example-unittest" />
+        <module name="rpc-framework-common" />
+        <module name="example-designpattern" />
+        <module name="example-splitdb-shardingjdbc" />
+        <module name="example-jdk" />
+        <module name="rpcframework" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,8 +22,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="example-designpattern" options="-parameters" />
       <module name="example-eventbus" options="-parameters" />
+      <module name="example-jdk" options="-parameters" />
       <module name="example-splitdb" options="-parameters" />
+      <module name="example-splitdb-shardingjdbc" options="-parameters" />
+      <module name="example-unittest" options="-parameters" />
       <module name="examples-parent" options="-parameters" />
+      <module name="rpc-framework-common" options="-parameters" />
+      <module name="rpcframework" options="-parameters" />
     </option>
   </component>
 </project>

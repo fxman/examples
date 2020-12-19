@@ -14,8 +14,7 @@ public class SmallMario implements IMario {
     }
 
     @Override
-    public void obtainMushRoom() {
-        stateMacine.setCurrentState(new SuperMario(stateMacine));
+    public void obtainMushRoom() {// stateMacine.setCurrentState(new SuperMario(stateMacine));
     }
 
     @Override
@@ -32,4 +31,5 @@ public class SmallMario implements IMario {
     public void meetMonster() {
 
     }
+
 }
